@@ -2,8 +2,8 @@
 
 > Write automated tests for your redirects.
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![npm](http://img.shields.io/npm/v/test-redirects.svg?style=flat)](https://www.npmjs.com/package/test-redirects)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Build Status](https://travis-ci.org/wayneashleyberry/test-redirects.svg?branch=master)](https://travis-ci.org/wayneashleyberry/test-redirects)
 [![Code Climate](https://codeclimate.com/github/wayneashleyberry/test-redirects/badges/gpa.svg)](https://codeclimate.com/github/wayneashleyberry/test-redirects)
 [![Dependency Status](https://david-dm.org/wayneashleyberry/test-redirects.svg)](https://david-dm.org/wayneashleyberry/test-redirects)
