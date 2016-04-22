@@ -6,6 +6,9 @@
   "scripts": {
     "test": "standard"
   },
+  "bin": {
+    "test-redirects": "./index.js"
+  },
   "keywords": [
     "test",
     "redirect",
