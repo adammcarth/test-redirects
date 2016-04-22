@@ -1,10 +1,13 @@
+#!/usr/bin/env node
+
 'use strict'
 
 const forEach = require('lodash.foreach')
 const request = require('request')
 const async = require('async')
 const chalk = require('chalk')
-const tests = require('./test-redirects.json')
+const path = require('path')
+const tests = require(path.join(process.cwd(), 'test-redirects.json'))
 const concurrency = 4
 
 var errors = 0
