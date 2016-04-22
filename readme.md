@@ -32,3 +32,7 @@ destination after being redirected.
   "https://www.npmjs.com": "https://www.npmjs.com/"
 }
 ```
+
+#### License
+
+MIT © [Wayne Ashley Berry](http://www.wayneashleyberry.com)
