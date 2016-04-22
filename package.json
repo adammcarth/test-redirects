@@ -1,6 +1,6 @@
 {
   "name": "test-redirects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Write automated tests for your redirects.",
   "main": "index.js",
   "repository": "wayneashleyberry/test-redirects",
