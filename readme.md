@@ -43,6 +43,7 @@ destination after being redirected.
 #### Related
 
 - [Why use www? - www. is not deprecated](http://www.yes-www.org/why-use-www/)
+- [To slash or not to slash](https://webmasters.googleblog.com/2010/04/to-slash-or-not-to-slash.html)
 
 #### License
 
