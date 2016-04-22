@@ -20,6 +20,15 @@ npm install -g test-redirects
 test-redirects
 ```
 
-`test-directs` will look for a file called `test-redirects.json`, check out the
-[example](https://github.com/wayneashleyberry/test-redirects/blob/master/test-redirects.json)
-to see what this file should look like.
+The script will look for a file called `test-redirects.json`. This file should
+contain an object where the keys are the origin url and values are the expected
+destination after being redirected.
+
+```json
+{
+  "http://npmjs.com": "https://www.npmjs.com/",
+  "http://www.npmjs.com": "https://www.npmjs.com/",
+  "https://npmjs.com": "https://www.npmjs.com/",
+  "https://www.npmjs.com": "https://www.npmjs.com/"
+}
+```
