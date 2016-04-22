@@ -6,6 +6,7 @@
 [![npm](http://img.shields.io/npm/v/test-redirects.svg?style=flat)](https://www.npmjs.com/package/test-redirects)
 [![Build Status](https://travis-ci.org/wayneashleyberry/test-redirects.svg?branch=master)](https://travis-ci.org/wayneashleyberry/test-redirects)
 [![Code Climate](https://codeclimate.com/github/wayneashleyberry/test-redirects/badges/gpa.svg)](https://codeclimate.com/github/wayneashleyberry/test-redirects)
+[![Dependency Status](https://david-dm.org/wayneashleyberry/test-redirects.svg)](https://david-dm.org/wayneashleyberry/test-redirects)
 
 Testing that your web server is configured correctly can be a pain. You want to
 make sure your users will always get to the correct content but manually
