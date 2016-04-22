@@ -7,9 +7,19 @@ const request = require('request')
 const async = require('async')
 const chalk = require('chalk')
 const path = require('path')
-const tests = require(path.join(process.cwd(), 'test-redirects.json'))
+const fs = require('fs')
 const concurrency = 4
+const testsFile = path.join(process.cwd(), 'test-redirects.json')
 
+try {
+  const stats = fs.statSync(testsFile)
+} catch (e) {
+  console.log(chalk.yellow('⚠') + ' Unable to find test-redirects.json')
+  process.exit(1)
+  return
+}
+
+const tests = require(testsFile)
 var errors = 0
 
 const q = async.queue(function (task, callback) {
