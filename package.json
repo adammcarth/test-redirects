@@ -1,6 +1,6 @@
 {
   "name": "test-redirects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Test http redirects",
   "main": "index.js",
   "scripts": {
