@@ -1,0 +1,9 @@
+{
+  "http://facebook.com": "https://www.facebook.com/",
+  "http://nodejs.org": "https://nodejs.org/en/",
+  "http://twitter.com": "https://twitter.com/",
+  "http://www.google.com": "https://www.google.com",
+  "http://golang.org": "https://golang.org/",
+  "https://www.golang.org": "https://golang.org/",
+  "https://www.npmjs.com/": "https://www.npmjs.com/"
+}
