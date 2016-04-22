@@ -9,7 +9,7 @@
 [![Dependency Status](https://david-dm.org/wayneashleyberry/test-redirects.svg)](https://david-dm.org/wayneashleyberry/test-redirects)
 
 Testing that your web server is configured correctly can be a pain. You want to
-make sure your users will always get to the correct content but manually
+make sure your users will always get to the correct location but manually
 testing this is slow, tedious and error-prone.
 
 #### Installation
