@@ -12,11 +12,10 @@ const concurrency = 4
 const testsFile = path.join(process.cwd(), 'test-redirects.json')
 
 try {
-  const stats = fs.statSync(testsFile)
+  fs.statSync(testsFile)
 } catch (e) {
   console.log(chalk.yellow('⚠') + ' Unable to find test-redirects.json')
   process.exit(1)
-  return
 }
 
 const tests = require(testsFile)
