@@ -38,6 +38,10 @@ destination after being redirected.
 }
 ```
 
+#### Related
+
+- [Why use www? - www. is not deprecated](http://www.yes-www.org/why-use-www/)
+
 #### License
 
 MIT © [Wayne Ashley Berry](http://www.wayneashleyberry.com)
