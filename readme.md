@@ -2,6 +2,8 @@
 
 > Write automated tests for your redirects.
 
+![Screenshot](https://raw.githubusercontent.com/wayneashleyberry/test-redirects/master/media/screenshot.png)
+
 [![npm](http://img.shields.io/npm/v/test-redirects.svg?style=flat)](https://www.npmjs.com/package/test-redirects)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Build Status](https://travis-ci.org/wayneashleyberry/test-redirects.svg?branch=master)](https://travis-ci.org/wayneashleyberry/test-redirects)
