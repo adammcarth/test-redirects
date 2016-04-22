@@ -33,7 +33,8 @@ destination after being redirected.
   "http://npmjs.com": "https://www.npmjs.com/",
   "http://www.npmjs.com": "https://www.npmjs.com/",
   "https://npmjs.com": "https://www.npmjs.com/",
-  "https://www.npmjs.com": "https://www.npmjs.com/"
+  "https://www.npmjs.com": "https://www.npmjs.com/",
+  "https://www.npmjs.com/": "https://www.npmjs.com/"
 }
 ```
 
