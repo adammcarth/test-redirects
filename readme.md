@@ -16,5 +16,10 @@ npm install -g test-redirects
 
 #### Usage
 
-Create a file named `test-redirects.json`. Check out the example to see how the
-data should be structured. The run `test-redirects`, you're done!
+```sh
+test-redirects
+```
+
+`test-directs` will look for a file called `test-redirects.json`, check out the
+[example](https://github.com/wayneashleyberry/test-redirects/blob/master/test-redirects.json)
+to see what this file should look like.
