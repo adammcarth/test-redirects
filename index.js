@@ -7,14 +7,19 @@ const chalk = require('chalk')
 const tests = require('./test-redirects.json')
 const concurrency = 4
 
+var errors = 0
+
 const q = async.queue(function (task, callback) {
   request(task.from, function (error, response, body) {
-      testRedirect(task.from, task.to, response.request.uri.href)
+    if (error) {
+      errorHandler(error)
       callback()
+      return
+    }
+    validateResult(task.from, task.to, response.request.uri.href)
+    callback()
   })
 }, concurrency)
-
-var errors = 0
 
 q.drain = function () {
   if (errors > 0) {
@@ -22,7 +27,11 @@ q.drain = function () {
   }
 }
 
-function testRedirect (from, to, result) {
+function errorHandler (error) {
+  console.log(chalk.red('✘') + ' ' + error)
+}
+
+function validateResult (from, to, result) {
   if (to === result) {
     console.log(chalk.green('✓') + ' ' + from + ' → ' + to)
     return

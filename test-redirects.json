@@ -1,4 +1,5 @@
 {
+  "foo": "bar",
   "http://facebook.com": "https://www.facebook.com/",
   "http://nodejs.org": "https://nodejs.org/en/",
   "http://twitter.com": "https://twitter.com/",
