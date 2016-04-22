@@ -17,6 +17,9 @@
   "bin": {
     "test-redirects": "./index.js"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "test",
     "redirect",
